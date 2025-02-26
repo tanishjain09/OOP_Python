@@ -8,7 +8,6 @@ class Book:
         self.price = price
 
         self.author = author
-
         self.chapters = []
 
     def addchapter(self, chapter):
@@ -19,6 +18,7 @@ class Book:
         for ch in self.chapters:
             result += ch.pagecount
         return result
+
 class Author:
     def __init__(self,fname,lname):
         self.fname = fname

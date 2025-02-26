@@ -5,7 +5,7 @@ class Book:
         self.author = author
         self.pages = pages
         self.price = price
-        self.__secret = "This is a secret attribute"
+        # self.__secret = "This is a secret attribute"
     def getprice(self):
         if hasattr(self,"_discount"):
             return self.price - (self.price * self._discount)
@@ -25,4 +25,4 @@ print(book2.getprice())
 book2.setdiscount(0.25)
 print(book2.getprice())
 
-print(book2.__)
+# print(book2.__secret)

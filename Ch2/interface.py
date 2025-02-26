@@ -3,9 +3,6 @@
 
 from abc import ABC, abstractmethod
 
-from xlwt.ExcelMagic import ptgInt
-
-
 class GraphicShape(ABC):
     def __init__(self):
         super().__init__()

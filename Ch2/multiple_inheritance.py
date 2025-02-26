@@ -27,3 +27,4 @@ class C(A, B):
 c = C()
 print(C.__mro__)
 c.showprope()
+print(c.__dict__)

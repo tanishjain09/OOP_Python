@@ -25,7 +25,7 @@ book2 = Book("War and Peace","JD Salinger",234,29.95)
 n1 = Newspaper("The Washinton Post")
 n2 = Newspaper("The New York Times")
 
-# print(type(book1))
+print(type(book1))
 # print(type(n2))
 #
 # print(type(book1) == type(book2))
